@@ -189,7 +189,7 @@ if page == pages[6] :
   with cola:
     st.write(" ")
   with colb:
-    st.caption("Loading may take a few minutes...")
+    st.caption("Calculations may take a few minutes...")
   with colc:
     st.write(" ")
   
