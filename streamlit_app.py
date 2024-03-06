@@ -185,7 +185,14 @@ if page == pages[5] :
 
 if page == pages[6] :
   st.markdown("<h3 style='text-align: center;'>[ First Wave Models ]</h3>", unsafe_allow_html=True)
-
+  cola, colb, colc = st.columns(3)
+  with cola:
+    st.write(" ")
+  with colb:
+    st.caption("Loading may take a few minutes...")
+  with colc:
+    st.write(" ")
+  
   regressor = LinearRegression()
   regressor.fit(X_train, y_train)
   y_pred_lr = regressor.predict(X_test)
