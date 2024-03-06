@@ -4,7 +4,7 @@ numpy
 matplotlib
 seaborn
 scipy
+statsmodels
 scikit-learn
 xgboost
 shap
-time
