@@ -186,12 +186,6 @@ if page == pages[5] :
 
 if page == pages[6] :
   st.markdown("<h3 style='text-align: center;'>[ First Wave Models ]</h3>", unsafe_allow_html=True)
-  
-  my_bar = st.progress(0)
-  for percent_complete in range(100):
-    time.sleep(0.01)
-    my_bar.progress(percent_complete + 1)
-  my_bar.empty()
 
   regressor = LinearRegression()
   regressor.fit(X_train, y_train)
