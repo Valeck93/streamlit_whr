@@ -70,7 +70,7 @@ if page == pages[0] :
     st.write(" ")
 
   st.markdown("<h3 style='text-align: center;'>Presenting Data Exploration, Data Visualization and Modelling Process</h3>", unsafe_allow_html=True)
-  st.markdown("<h5 style='text-align: center;'>hosted by Valentin Eckhardt</h5>", unsafe_allow_html=True)
+  st.markdown("<h5 style='text-align: center;'>by Valentin Eckhardt</h5>", unsafe_allow_html=True)
   st.markdown("<h5 style='text-align: center;'>26th February 2024", unsafe_allow_html=True)
 
 if page == pages[1] : 
